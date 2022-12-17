@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(164, 193, 218);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -7,23 +7,19 @@ body {
 }
 
 .heading {
-    font-family: 'Pacifico', cursive;
+    font-family: georgia,serif;
     margin: 35px auto 20px;
 }
 
-hr {
-    border-top: 2px solid black;
-    width: 40%;
-    margin-bottom: 55px;
-}
+
 
 .main {
     width: 50vw;
     margin: auto;
     padding: 30px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background-color: rgba(10, 4, 9, 0.5);
+    color: rgb(114, 109, 126);
 }
 
 label {
@@ -35,7 +31,7 @@ label {
 }
 
 #finalAmount {
-    font-family: 'Lobster', cursive;
+    font-family: georgia,serif;
     display: none;
     margin: 50px auto;
 }
